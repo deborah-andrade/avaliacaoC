@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#include "CalculadoraPosFixa.c"
+#include "CalculadoraPosFixa.h"
 
 int main(){
     char ch[100];
