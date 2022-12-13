@@ -63,7 +63,7 @@ void removerTudo(Fila *f){
 
 void imprimir(Fila *f){
     No *aux = f->prim;
-    printf("z\n\t----------- FILA ----------\n\t\t");
+    printf("\n\t----------- FILA ----------\n\t\t");
     while(aux != NULL){
         printf("%d", aux->valor);
         aux = aux->proximo;
