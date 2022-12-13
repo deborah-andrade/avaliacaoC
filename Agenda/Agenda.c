@@ -4,7 +4,6 @@
 #include "Agenda.h"
 #define MAX 250
 #define ARQ_NAME "contatos.ccf"
-typedef struct contato Contato;
 
 struct contato{
     char nome[51];
@@ -130,8 +129,4 @@ void menuPrincipal(){
 
         }
     }
-}
-
-int main(){
-    menuPrincipal();
 }
