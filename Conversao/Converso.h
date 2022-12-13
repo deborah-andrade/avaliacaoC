@@ -7,3 +7,4 @@ No* removerDaFila(Fila *f);
 void removerTudo(Fila *f);
 void imprimir(Fila *f);
 void binario(Fila *f, int n);
+
